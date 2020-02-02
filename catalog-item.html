@@ -6,9 +6,11 @@
 </head>
 <body>
   <header class="header">
-  <img class="logo" src="https://via.placeholder.com/111x24" alt="логотип Барбершопа «Бородинский»" width="111px" height="24px">
+    <a class="logo" href="index.html">
+      <img class="logo__img" src="img/logo.svg" alt="логотип Барбершопа «Бородинский»" width="111" height="24">
+    </a>
 
-  <nav class="navigation">
+    <nav class="navigation">
     <ul class="navigation__list">
       <li class="navigation__item">
         <a class="navigation__link" href="/">Информация</a>
@@ -31,7 +33,7 @@
       Вход
     </a>
   </nav>
-</header>
+  </header>
 
   <main class="page-wrapper">
 
@@ -55,13 +57,35 @@
 
     <div class="product">
       <figure class="product--photo-box">
-          <img class="product--photo product--photo--big" src="https://via.placeholder.com/486x524" alt="набор для путешествий «Baxter of California»" width="486px" height="524px">
 
-          <img class="product--photo product--photo--small" src="https://via.placeholder.com/166x175" alt="набор для путешествий «Baxter of California»" width="166px" height="175px">
+        <img class="product--photo product--photo--big"
+             src="img/cat/cat-product-1.jpg"
+             srcset="img/cat/cat-product-1.jpg@2x.png 2x,
+                          img/cat/cat-product-1.jpg@3x.png 3x"
+             alt="Набор для путешествий «Baxter of California»"
+             width="460" height="498">
 
-          <img class="product--photo product--photo--small" src="https://via.placeholder.com/166x175" alt="набор для путешествий «Baxter of California»" width="166px" height="175px">
 
-          <img class="product--photo product--photo--small" src="https://via.placeholder.com/166x175" alt="набор для путешествий «Baxter of California»" width="166px" height="175px">
+        <img class="product--photo product--photo--small"
+             src="img/cat/cat-product-2.jpg"
+             srcset="img/cat/cat-product-2.jpg@2x.png 2x,
+                          img/cat/cat-product-2.jpg@3x.png 3x"
+             alt="Набор для путешествий «Baxter of California»"
+             width="166" height="175">
+
+        <img class="product--photo product--photo--small"
+             src="img/cat/cat-product-3.jpg"
+             srcset="img/cat/cat-product-3.jpg@2x.png 2x,
+                          img/cat/cat-product-3.jpg@3x.png 3x"
+             alt="Набор для путешествий «Baxter of California»"
+             width="166" height="175">
+
+        <img class="product--photo product--photo--small"
+             src="img/cat/cat-product-4.jpg"
+             srcset="img/cat/cat-product-4.jpg@2x.png 2x,
+                          img/cat/cat-product-4.jpg@3x.png 3x"
+             alt="Набор для путешествий «Baxter of California»"
+             width="166" height="175">
         </figure>
 
       <article class="product__info">
@@ -86,7 +110,7 @@
             <li class="product__set-item">Увлажняющий крем (50 мл)</li>
             <li class="product__set-item">Крем для бритья (50 мл)</li>
             <li class="product__set-item">Крем после бритья, шампунь (50 мл)</li>
-            <li class="product__set-item">Удобная кожаная косметичка</li>                
+            <li class="product__set-item">Удобная кожаная косметичка</li>
           </ul>
         </div>
       </article>
